@@ -1,7 +1,5 @@
 const axios = require('axios');
-
 const { authenticate } = require('./middlewares');
-
 const bcrypt = require("bcryptjs");
 const db = require("../data/dbConfig");
 const jwtKey = require("../_secrets/keys").jwtKey;
